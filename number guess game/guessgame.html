@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="guessgame.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- First Grid: Game Title -->
+        <div class="grid-item" id="game-title">
+            <h2>Guess the Number from 1 to 200</h2>
+        </div>
+
+        <!-- Second Grid: Feedback Message -->
+        <div class="grid-item" id="try-it">
+            <p>Try it!</p>
+        </div>
+
+        <!-- Third Grid: User Input & Button -->
+        <div class="grid-item" id="user-input">
+            <input type="number" id="guess" placeholder="Enter your guess (1-200)">
+            <button id="check-btn">Check</button>
+        </div>
+
+        <!-- Fourth Grid: Chances Left -->
+        <div class="grid-item" id="chances-left">
+            <p>Chances left: <span id="chances-count">10</span></p>
+        </div>
+    </div>
+
+    <script src="guessgame.js"></script>
+</body>
+</html>

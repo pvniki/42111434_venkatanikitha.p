@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eaedee;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    width: 80%;
+    max-width: 400px; /* Limit the width */
+    padding: 20px;
+    background-color: #e9e0e0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.grid-item {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #f1e7e7;
+    border-radius: 5px;
+}
+
+#user-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guess {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 200px;
+}
+
+#check-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#check-btn:hover {
+    background-color: #45a049;
+}
